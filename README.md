@@ -1,33 +1,33 @@
-# READMEGenerator
+# READMEgenerator
 
-  #Description
+  # Description
 
-  undefined
+  This project is designed to generate a readme file using node
 
-  ##Table of Contents
+  ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contributing](#contributing)
-  *[Test](#test)
-  *[Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [Questions](#questions)
 
-  ##Installation
+  ## Installation
   npm i
 
-  ##Usage
-  The repo generate a readme
+  ## Usage
+  The repo creates a file using node
 
-  ##License
-  undefined
+  ## License
+  MIT
 
-  ##Contributing
-  The project was made using the starter code from the class
+  ## Contributing
+  The project was made using stater code provided to class
 
-  ##Test
+  ## Test
   npm tes
 
-  ##Questions
+  ## Questions
   Enrique303elop22@gmail.com
 
