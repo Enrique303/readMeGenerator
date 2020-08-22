@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 const writeFileAsync = util.promisify(fs.writeFile);
 // array of questions for user
 function promptUser(){
@@ -23,12 +23,12 @@ function promptUser(){
     },
     {
       type: "input",
-      name: "descpription",
+      name: "description",
       message: "Please write a short description of your project",
     },
     {
       type: "list",
-      name: "License",
+      name: "license",
       message: "What kind of license should your project have?",
       choices: [
         'MIT',
@@ -40,7 +40,7 @@ function promptUser(){
     },
     {
       type: "input",
-      name: "dependencies",
+      name: "installation",
       message: "what command should be run to install dependencies?",
     },
     {
@@ -50,12 +50,12 @@ function promptUser(){
     },
     {
       type: "input",
-      name: "info",
+      name: "usage",
       message: "What does the user need to know about using the repo?",
     },
     {
       type: "input",
-      name: "info",
+      name: "contributing",
       message: "What does the user need to know about contributing to the repo?",
     }
   ])
