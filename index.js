@@ -18,7 +18,7 @@ function promptUser(){
     },
     {
       type: "input",
-      name: "project name",
+      name: "title",
       message: "what is your project's name?",
     },
     {
@@ -56,7 +56,7 @@ function promptUser(){
     {
       type: "input",
       name: "info",
-      message: "What does the user need to know about contrinuting to the repo?",
+      message: "What does the user need to know about contributing to the repo?",
     }
   ])
 }
